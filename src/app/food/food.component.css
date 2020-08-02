@@ -1,0 +1,23 @@
+.card-custom{
+    padding-top: 5px;
+}
+.card{
+    height: 400px;
+}
+.text{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.col-custom{
+    background-color: grey;
+    text-align: center;
+}
+h5{
+    padding-top: 30px;
+    font-family: cursive;
+    color: honeydew;
+}
+a:hover{
+    color: black;
+}

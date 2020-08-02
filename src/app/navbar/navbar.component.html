@@ -1,14 +1,14 @@
 <div class="navbar navbar-expand-lg navbar-dark bg-dark navbar-static-top">
-    <a class="navbar-brand" href="#">
+    <a class="navbar-brand" [routerLink]="'/homepage'">
         Urban Gramer 
     </a>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-item nav-link active" href="#"><i class="fas fa-hamburger"></i>Food <span class="sr-only">(current)</span></a>
-          <a class="nav-item nav-link" href="#"><i class="fas fa-plane"></i>Travel</a>
-          <a class="nav-item nav-link" href="#"><i class="far fa-lightbulb"></i>Innovation</a>
-          <a class="nav-item nav-link" href="#"><i class="fas fa-recycle"></i>Sustainability</a>
-          <a class="nav-item nav-link" href="#"><i class="fas fa-chart-bar"></i>Usage</a>
+          <a class="nav-item nav-link active" [routerLink]="'/food'"><i class="fas fa-hamburger"></i>Food <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" [routerLink]="'/travel'"><i class="fas fa-plane"></i>Travel</a>
+          <a class="nav-item nav-link" [routerLink]="'/innovation'"><i class="far fa-lightbulb"></i>Innovation</a>
+          <a class="nav-item nav-link" [routerLink]="'/sustainability'"><i class="fas fa-recycle"></i>Sustainability</a>
+          <a class="nav-item nav-link" [routerLink]="'/usage'"><i class="fas fa-chart-bar"></i>Usage</a>
         </div>
       </div>
 </div>
