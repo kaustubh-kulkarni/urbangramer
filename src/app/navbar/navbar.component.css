@@ -1,0 +1,26 @@
+.navbar {
+    padding-bottom: 10px;
+    background-color: black!important;
+}
+.nav-item{
+    font-size: large;
+}
+.fa-hamburger {
+    padding: 3px 3px 3px 3px;
+    color: brown;
+}
+.fa-plane{
+    color: skyblue;
+}
+.fa-lightbulb{
+    color: lemonchiffon;
+}
+.fa-recycle{
+    color: green;
+}
+.fa-chart-bar{
+    color: white;
+}
+.far, .fas{
+    padding: 4px 4px 4px 4px;
+}

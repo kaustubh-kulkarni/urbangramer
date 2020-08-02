@@ -1,1 +1,20 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+    box-sizing: border-box;
+}
+html
+{
+    height: 100%;
+}
+body
+{   
+    font-family: 'PT Sans Narrow', sans-serif;
+    height: 100%;
+}
+a
+{
+    color: #44a4cd;
+}
+a:hover
+{
+    color: #44a8cf;
+}
