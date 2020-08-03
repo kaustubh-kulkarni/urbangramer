@@ -7,13 +7,19 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { FoodComponent } from './food/food.component';
 import { RouterModule } from '@angular/router';
+import { TravelComponent } from './travel/travel.component';
+import { InnovationComponent } from './innovation/innovation.component';
+import { SustainabiltyComponent } from './sustainabilty/sustainabilty.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     HomepageComponent,
-    FoodComponent
+    FoodComponent,
+    TravelComponent,
+    InnovationComponent,
+    SustainabiltyComponent
   ],
   imports: [
     BrowserModule,
