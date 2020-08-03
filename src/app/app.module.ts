@@ -4,12 +4,13 @@ import { AppRoutingModule } from './app-routing/app-routing.module';
 
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
-import { HomepageComponent } from './homepage/homepage.component';
-import { FoodComponent } from './food/food.component';
+import { HomepageComponent } from './sections/homepage/homepage.component';
+import { FoodComponent } from './sections/food/food.component';
 import { RouterModule } from '@angular/router';
-import { TravelComponent } from './travel/travel.component';
-import { InnovationComponent } from './innovation/innovation.component';
-import { SustainabiltyComponent } from './sustainabilty/sustainabilty.component';
+import { TravelComponent } from './sections/travel/travel.component';
+import { InnovationComponent } from './sections/innovation/innovation.component';
+import { SustainabiltyComponent } from './sections/sustainabilty/sustainabilty.component';
+import { UsageComponent } from './sections/usage/usage.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { SustainabiltyComponent } from './sustainabilty/sustainabilty.component'
     FoodComponent,
     TravelComponent,
     InnovationComponent,
-    SustainabiltyComponent
+    SustainabiltyComponent,
+    UsageComponent
   ],
   imports: [
     BrowserModule,

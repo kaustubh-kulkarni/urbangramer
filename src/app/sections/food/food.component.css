@@ -21,3 +21,6 @@ h5{
 a:hover{
     color: black;
 }
+.custom-food{
+    border-radius: 15px;
+}
